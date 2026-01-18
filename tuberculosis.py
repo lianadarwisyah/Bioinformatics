@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
@@ -152,3 +151,4 @@ if uploaded_file is not None:
             st.dataframe(input_df)
 
 st.caption("SECB3203 Mini Project | ML-based Disease Classification using Streamlit")
+
